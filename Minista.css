@@ -1,0 +1,113 @@
+body{
+text-align: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: center;
+justify-items: center;
+background-image: url(Background/Mincrat1.jpg);
+background-attachment: fixed;
+overflow: hidden;
+}
+::-webkit-scrollbar{
+background:linear-gradient(red,yellow);
+border-radius: 360px;
+}
+::-webkit-scrollbar-thumb{
+    transition: 0.65s;
+    background: linear-gradient(yellow,red);
+    border-radius: 180px;
+    cursor: all-scroll;
+}
+::-webkit-scrollbar-thumb:hover{
+transition: 0.64s;
+background: linear-gradient(red,yellow);
+}
+::-webkit-scrollbar-button{
+background-color: rgb(0, 4, 255);
+}
+h1{
+margin-right: 33rem;
+}
+video{
+height: 850px;
+width: 600px;
+border: 10px groove grey;
+background: linear-gradient(128deg,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black);
+border-radius: 5px;
+}
+h1{
+margin-top: -35rem;
+margin-left: 30rem;
+text-transform: uppercase;
+text-rendering: geometricPrecision;
+}
+button{
+translate: -8rem -39rem;
+font-size: 35px;
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+button:active{
+    transition: 0s;
+animation: moreorless 0.10s ease-out;
+}
+@keyframes moreorless{
+0%,
+25%{font-size: 40px;}
+50%{font-size: 32px;}
+75%{font-size: 37px;}
+100%{font-size: 34px;}
+}
+.next{
+margin-left: 60rem;
+rotate: -30deg;
+margin-top: 20rem;
+font-size: 50px;
+}
+.next:hover{
+transition: 1s;
+font-size: 52px;
+}
+.next:active{
+transition: 0.25s;
+color: wheat;
+font-size: 48px;
+}
+
+.last{
+rotate: 30deg;
+font-size: 50px;
+margin-left: 10rem;
+}
+.last:hover{
+transition: 1s;
+font-size: 52px;
+}
+.last:active{
+transition: 0.25s;
+color: wheat;
+font-size: 48px;
+}
+h3{
+color: snow;
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+translate: 11.50rem -45rem;
+}
+#dis{
+font-size: 50px;
+}
+#dis:active{
+font-size: 50px;
+}
+.zero{
+margin-left: -1.20rem;
+}
+.play{
+color: white;
+translate: -11rem 0.50rem;
+transition: 0.80s;
+}
+

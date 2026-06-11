@@ -1,0 +1,1191 @@
+document.addEventListener('contextmenu',event=>{
+    event.preventDefault();
+});
+window.addEventListener('wheel',function(no){
+    if(no.ctrlKey){
+       no.preventDefault();
+    }
+},{passive:false});
+window.addEventListener('keydown',event=>{
+    if(event.ctrlKey&&(event.key==='+'||event.key==='-'||event.key==='=')){
+      event.preventDefault();
+    }
+});
+window.addEventListener('keydown',event=>{
+    if(event.ctrlKey&&(event.key==='+'||event.key==='-'||event.key==='=')){
+       event.preventDefault();
+    }
+})
+const Next_video_button=document.querySelectorAll('.next');
+const Last_video_button=document.querySelectorAll('.last');
+const like=document.getElementsByClassName('heart');
+const count_of_likes=document.getElementsByTagName('h3');
+const Targets=document.querySelectorAll('.target');
+const Plays=document.querySelectorAll('.play');
+console.log(Targets);
+let like1=0;
+let like2=0;
+let like3=0;
+let like4=0;
+let like5=0;
+let like6=0;
+let like7=0;
+let like8=0;
+let like9=0;
+let like10=0;
+let like11=0;
+let like12=0;
+let like13=0;
+let like14=0;
+let like15=0;
+let like16=0;
+let like17=0;
+let like18=0;
+let like19=0;
+let like20=0;
+let like21=0;
+let like22=0;
+let like23=0;
+let like24=0;
+let like25=0;
+let like26=0;
+let like27=0;
+let like28=0;
+let like29=0;
+let like30=0;
+let like31=0;
+let like32=0;
+let like33=0;
+let like34=0;
+like[0].addEventListener('click',event=>{
+    like1++;
+    if(like1==1){
+      count_of_likes[0].textContent=like1;
+    }else{
+        like1=0;
+        count_of_likes[0].textContent=like1;
+    }
+});
+like[1].addEventListener('click',event=>{
+    like2++;
+    if(like2==1){
+      count_of_likes[1].textContent=like2;
+    }else{
+        like2=0;
+            count_of_likes[1].textContent=like2;
+    }
+});
+like[2].addEventListener('click',event=>{
+    like3++;
+    if(like3==1){
+      count_of_likes[2].textContent=like3;
+    }else{
+        like3=0;
+        count_of_likes[2].textContent=like3;
+    }
+});
+like[3].addEventListener('click',event=>{
+    like4++;
+    if(like4==1){
+      count_of_likes[3].textContent=like4;
+    }else{
+        like4=0;
+        count_of_likes[3].textContent=like4;
+    }
+});
+like[4].addEventListener('click',event=>{
+    like5++;
+    if(like5==1){
+      count_of_likes[4].textContent=like5;
+    }else{
+        like5=0;
+        count_of_likes[4].textContent=like5;
+    }
+});
+like[5].addEventListener('click',event=>{
+    like6++;
+    if(like6==1){
+      count_of_likes[5].textContent=like6;
+    }else{
+        like6=0;
+        count_of_likes[5].textContent=like6;
+    }
+});
+like[6].addEventListener('click',event=>{
+    like7++;
+    if(like7==1){
+      count_of_likes[6].textContent=like7;
+    }else{
+        like7=0;
+        count_of_likes[6].textContent=like7;
+    }
+});
+like[7].addEventListener('click',event=>{
+    like8++;
+    if(like8==1){
+      count_of_likes[7].textContent=like8;
+    }else{
+        like8=0;
+        count_of_likes[7].textContent=like8;
+    }
+});
+like[8].addEventListener('click',event=>{
+    like9++;
+    if(like9==1){
+      count_of_likes[8].textContent=like9;
+    }else{
+        like9=0;
+        count_of_likes[8].textContent=like9;
+    }
+});
+like[9].addEventListener('click',event=>{
+    like10++;
+    if(like10==1){
+      count_of_likes[9].textContent=like10;
+    }else{
+        like10=0;
+        count_of_likes[9].textContent=like10;
+    }
+});
+like[10].addEventListener('click',event=>{
+    like11++;
+    if(like11==1){
+      count_of_likes[10].textContent=like11;
+    }else{
+        like11=0;
+        count_of_likes[10].textContent=like11;
+    }
+});
+like[11].addEventListener('click',event=>{
+    like12++;
+    if(like12==1){
+      count_of_likes[11].textContent=like12;
+    }else{
+        like12=0;
+        count_of_likes[11].textContent=like12;
+    }
+});
+like[12].addEventListener('click',event=>{
+    like13++;
+    if(like13==1){
+      count_of_likes[12].textContent=like13;
+    }else{
+        like13=0;
+        count_of_likes[12].textContent=like13;
+    }
+});
+like[13].addEventListener('click',event=>{
+    like14++;
+    if(like14==1){
+      count_of_likes[13].textContent=like14;
+    }else{
+        like14=0;
+        count_of_likes[13].textContent=like14;
+    }
+});
+like[14].addEventListener('click',event=>{
+    like15++;
+    if(like15==1){
+      count_of_likes[14].textContent=like15;
+    }else{
+        like15=0;
+        count_of_likes[14].textContent=like15;
+    }
+});
+like[15].addEventListener('click',event=>{
+    like16++;
+    if(like16==1){
+      count_of_likes[15].textContent=like16;
+    }else{
+        like16=0;
+        count_of_likes[15].textContent=like16;
+    }
+});
+like[16].addEventListener('click',event=>{
+    like17++;
+    if(like17==1){
+      count_of_likes[16].textContent=like17;
+    }else{
+        like17=0;
+        count_of_likes[16].textContent=like17;
+    }
+});
+like[17].addEventListener('click',event=>{
+    like18++;
+    if(like18==1){
+      count_of_likes[17].textContent=like18;
+    }else{
+        like18=0;
+        count_of_likes[17].textContent=like18;
+    }
+});
+like[18].addEventListener('click',event=>{
+    like19++;
+    if(like19==1){
+      count_of_likes[18].textContent=like19;
+    }else{
+        like19=0;
+        count_of_likes[18].textContent=like19;
+    }
+});
+like[19].addEventListener('click',event=>{
+    like20++;
+    if(like20==1){
+      count_of_likes[19].textContent=like20;
+    }else{
+        like20=0;
+        count_of_likes[19].textContent=like20;
+    }
+});
+like[20].addEventListener('click',event=>{
+    like21++;
+    if(like21==1){
+      count_of_likes[20].textContent=like21;
+    }else{
+        like21=0;
+        count_of_likes[20].textContent=like21;
+    }
+});
+like[21].addEventListener('click',event=>{
+    like22++;
+    if(like22==1){
+      count_of_likes[21].textContent=like22;
+    }else{
+        like22=0;
+        count_of_likes[21].textContent=like22;
+    }
+});
+like[22].addEventListener('click',event=>{
+    like23++;
+    if(like23==1){
+      count_of_likes[22].textContent=like23;
+    }else{
+        like23=0;
+        count_of_likes[22].textContent=like23;
+    }
+});
+like[23].addEventListener('click',event=>{
+    like24++;
+    if(like24==1){
+      count_of_likes[23].textContent=like24;
+    }else{
+        like24=0;
+        count_of_likes[23].textContent=like24;
+    }
+});
+like[24].addEventListener('click',event=>{
+    like25++;
+    if(like25==1){
+      count_of_likes[24].textContent=like25;
+    }else{
+        like25=0;
+        count_of_likes[24].textContent=like25;
+    }
+});
+like[25].addEventListener('click',event=>{
+    like26++;
+    if(like26==1){
+      count_of_likes[25].textContent=like26;
+    }else{
+        like26=0;
+        count_of_likes[25].textContent=like26;
+    }
+});
+like[26].addEventListener('click',event=>{
+    like27++;
+    if(like27==1){
+      count_of_likes[26].textContent=like27;
+    }else{
+        like27=0;
+        count_of_likes[26].textContent=like27;
+    }
+});
+like[27].addEventListener('click',event=>{
+    like28++;
+    if(like28==1){
+      count_of_likes[27].textContent=like28;
+    }else{
+        like28=0;
+        count_of_likes[27].textContent=like28;
+    }
+});
+like[28].addEventListener('click',event=>{
+    like29++;
+    if(like29==1){
+      count_of_likes[28].textContent=like29;
+    }else{
+        like29=0;
+        count_of_likes[28].textContent=like29;
+    }
+});
+like[29].addEventListener('click',event=>{
+    like30++;
+    if(like30==1){
+      count_of_likes[29].textContent=like30;
+    }else{
+        like30=0;
+        count_of_likes[29].textContent=like30;
+    }
+});
+like[30].addEventListener('click',event=>{
+    like31++;
+    if(like31==1){
+      count_of_likes[30].textContent=like31;
+    }else{
+        like31=0;
+        count_of_likes[30].textContent=like31;
+    }
+});
+like[31].addEventListener('click',event=>{
+    like32++;
+    if(like32==1){
+      count_of_likes[31].textContent=like32;
+    }else{
+        like32=0;
+        count_of_likes[31].textContent=like32;
+    }
+});
+like[32].addEventListener('click',event=>{
+    like33++;
+    if(like33==1){
+      count_of_likes[32].textContent=like33;
+    }else{
+        like33=0;
+        count_of_likes[32].textContent=like33;
+    }
+});
+like[33].addEventListener('click',event=>{
+    like34++;
+    if(like34==1){
+      count_of_likes[33].textContent=like34;
+    }else{
+        like34=0;
+        count_of_likes[33].textContent=like34;
+    }
+});
+const Videos=document.getElementsByTagName('video');
+Next_video_button[0].addEventListener('click',movement=>{
+Plays[0].textContent="▶";
+Targets[1].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[0].load();
+});
+
+Next_video_button[1].addEventListener('click',movement=>{
+Plays[1].textContent="▶";
+Targets[2].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[1].load();
+});
+Next_video_button[2].addEventListener('click',movement=>{
+    Plays[2].textContent="▶";
+Targets[3].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[2].load();
+});
+Next_video_button[3].addEventListener('click',movement=>{
+    Plays[3].textContent="▶";
+Targets[4].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[3].load();
+});
+Next_video_button[4].addEventListener('click',movement=>{
+    Plays[4].textContent="▶";
+Targets[5].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[4].load();
+});
+Next_video_button[5].addEventListener('click',movement=>{
+    Plays[5].textContent="▶";
+Targets[6].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[5].load();
+});
+Next_video_button[6].addEventListener('click',movement=>{
+    Plays[6].textContent="▶";
+Targets[7].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[6].load();
+});
+Next_video_button[7].addEventListener('click',movement=>{
+    Plays[7].textContent="▶";
+Targets[8].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[7].load();
+});
+Next_video_button[8].addEventListener('click',movement=>{
+    Plays[8].textContent="▶";
+Targets[9].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[8].load();
+});
+Next_video_button[9].addEventListener('click',movement=>{
+    Plays[9].textContent="▶";
+Targets[10].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[9].load();
+});
+Next_video_button[10].addEventListener('click',movement=>{
+    Plays[10].textContent="▶";
+Targets[11].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[10].load();
+});
+Next_video_button[11].addEventListener('click',movement=>{
+    Plays[11].textContent="▶";
+Targets[12].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[11].load();
+});
+Next_video_button[12].addEventListener('click',movement=>{
+    Plays[12].textContent="▶";
+Targets[13].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[12].load();
+});
+Next_video_button[13].addEventListener('click',movement=>{
+    Plays[13].textContent="▶";
+Targets[14].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[13].load();
+});
+Next_video_button[14].addEventListener('click',movement=>{
+    Plays[14].textContent="▶";
+Targets[15].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[14].load();
+});
+Next_video_button[15].addEventListener('click',movement=>{
+    Plays[15].textContent="▶";
+Targets[16].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[15].load();
+});
+Next_video_button[16].addEventListener('click',movement=>{
+    Plays[16].textContent="▶";
+Targets[17].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[16].load();
+});
+Next_video_button[17].addEventListener('click',movement=>{
+    Plays[17].textContent="▶";
+Targets[18].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[17].load();
+});
+Next_video_button[18].addEventListener('click',movement=>{
+    Plays[18].textContent="▶";
+Targets[19].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[18].load();
+});
+Next_video_button[19].addEventListener('click',movement=>{
+    Plays[19].textContent="▶";
+Targets[20].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[19].load();
+});
+Next_video_button[20].addEventListener('click',movement=>{
+    Plays[20].textContent="▶";
+Targets[21].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[20].load();
+});
+Next_video_button[21].addEventListener('click',movement=>{
+    Plays[21].textContent="▶";
+Targets[22].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[21].load();
+});
+Next_video_button[22].addEventListener('click',movement=>{
+    Plays[22].textContent="▶";
+Targets[23].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[22].load();
+});
+Next_video_button[23].addEventListener('click',movement=>{
+    Plays[23].textContent="▶";
+Targets[24].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[23].load();
+});
+Next_video_button[24].addEventListener('click',movement=>{
+    Plays[24].textContent="▶";
+Targets[25].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[24].load();
+});
+Next_video_button[25].addEventListener('click',movement=>{
+    Plays[25].textContent="▶";
+Targets[26].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[25].load();
+});
+Next_video_button[26].addEventListener('click',movement=>{
+    Plays[26].textContent="▶";
+Targets[27].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[26].load();
+});
+Next_video_button[27].addEventListener('click',movement=>{
+    Plays[27].textContent="▶";
+Targets[28].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[27].load();
+});
+Next_video_button[28].addEventListener('click',movement=>{
+    Plays[28].textContent="▶";
+Targets[29].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[28].load();
+});
+Next_video_button[29].addEventListener('click',movement=>{
+    Plays[29].textContent="▶";
+Targets[30].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[29].load();
+});
+Next_video_button[30].addEventListener('click',movement=>{
+    Plays[30].textContent="▶";
+Targets[31].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[30].load();
+});
+Next_video_button[31].addEventListener('click',movement=>{
+    Plays[31].textContent="▶";
+Targets[32].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[31].load();
+});
+Next_video_button[32].addEventListener('click',movement=>{
+    Plays[32].textContent="▶";
+Targets[33].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[32].load();
+});
+Next_video_button[33].addEventListener('click',movement=>{
+    Plays[33].textContent="▶";
+Targets[34].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[33].load();
+});
+
+Last_video_button[1].addEventListener('click',event=>{
+    Plays[1].textContent="▶";
+    Targets[0].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[1].load();
+});
+Last_video_button[2].addEventListener('click',event=>{
+    Plays[2].textContent="▶";
+    Targets[1].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[2].load();
+});
+Last_video_button[3].addEventListener('click',event=>{
+    Plays[3].textContent="▶";
+    Targets[2].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[3].load();
+});
+Last_video_button[4].addEventListener('click',event=>{
+    Plays[4].textContent="▶";
+    Targets[3].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[4].load();
+});
+Last_video_button[5].addEventListener('click',event=>{
+    Plays[5].textContent="▶";
+    Targets[4].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[5].load();
+});
+Last_video_button[6].addEventListener('click',event=>{
+    Plays[6].textContent="▶";
+    Targets[5].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[6].load();
+});
+Last_video_button[7].addEventListener('click',event=>{
+    Plays[7].textContent="▶";
+    Targets[6].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[7].load();
+});
+Last_video_button[8].addEventListener('click',event=>{
+    Plays[8].textContent="▶";
+    Targets[7].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[8].load();
+});
+Last_video_button[9].addEventListener('click',event=>{
+    Plays[9].textContent="▶";
+    Targets[8].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[9].load();
+});
+Last_video_button[10].addEventListener('click',event=>{
+    Plays[10].textContent="▶";
+    Targets[9].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[10].load();
+});
+Last_video_button[11].addEventListener('click',event=>{
+    Plays[11].textContent="▶";
+    Targets[10].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[11].load();
+});
+Last_video_button[12].addEventListener('click',event=>{
+    Plays[12].textContent="▶";
+    Targets[11].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[12].load();
+});
+Last_video_button[13].addEventListener('click',event=>{
+    Plays[13].textContent="▶";
+    Targets[12].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[13].load();
+});
+Last_video_button[14].addEventListener('click',event=>{
+    Plays[14].textContent="▶";
+    Targets[13].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[14].load();
+});
+Last_video_button[15].addEventListener('click',event=>{
+    Plays[15].textContent="▶";
+    Targets[14].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[15].load();
+});
+Last_video_button[16].addEventListener('click',event=>{
+    Plays[16].textContent="▶";
+    Targets[15].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[16].load();
+});
+Last_video_button[17].addEventListener('click',event=>{
+    Plays[17].textContent="▶";
+    Targets[16].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[17].load();
+});
+Last_video_button[18].addEventListener('click',event=>{
+    Plays[18].textContent="▶";
+    Targets[17].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[18].load();
+});
+Last_video_button[19].addEventListener('click',event=>{
+    Plays[19].textContent="▶";
+    Targets[18].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[19].load();
+});
+Last_video_button[20].addEventListener('click',event=>{
+    Plays[20].textContent="▶";
+    Targets[19].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[20].load();
+});
+Last_video_button[21].addEventListener('click',event=>{
+    Plays[21].textContent="▶";
+    Targets[20].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[21].load();
+});
+Last_video_button[22].addEventListener('click',event=>{
+    Plays[22].textContent="▶";
+    Targets[21].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[22].load();
+});
+Last_video_button[23].addEventListener('click',event=>{
+    Plays[23].textContent="▶";
+    Targets[22].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[23].load();
+});
+Last_video_button[24].addEventListener('click',event=>{
+    Plays[24].textContent="▶";
+    Targets[23].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[24].load();
+});
+Last_video_button[25].addEventListener('click',event=>{
+    Plays[25].textContent="▶";
+    Targets[24].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[25].load();
+});
+Last_video_button[26].addEventListener('click',event=>{
+    Plays[26].textContent="▶";
+    Targets[25].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[26].load();
+});
+Last_video_button[27].addEventListener('click',event=>{
+    Plays[27].textContent="▶";
+    Targets[26].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[27].load();
+});
+Last_video_button[28].addEventListener('click',event=>{
+    Plays[28].textContent="▶";
+    Targets[27].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[28].load();
+});
+Last_video_button[29].addEventListener('click',event=>{
+    Plays[29].textContent="▶";
+    Targets[28].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[29].load();
+});
+Last_video_button[30].addEventListener('click',event=>{
+    Plays[30].textContent="▶";
+    Targets[29].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[30].load();
+});
+Last_video_button[31].addEventListener('click',event=>{
+    Plays[31].textContent="▶";
+    Targets[30].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[31].load();
+});
+Last_video_button[32].addEventListener('click',event=>{
+    Plays[32].textContent="▶";
+    Targets[31].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[32].load();
+});
+Last_video_button[33].addEventListener('click',event=>{
+    Plays[33].textContent="▶";
+    Targets[32].scrollIntoView({
+    behavior:'smooth',
+    block:'start'
+});
+Videos[33].load();
+});
+let Pause=false;
+Plays.forEach(any=>{
+    any.addEventListener('click',event=>{
+     if(any==Plays[0]){
+        if(Plays[0].textContent==="⏸"){
+          Plays[0].textContent="▶";
+          Videos[0].pause();
+        }else{
+            Plays[0].textContent="⏸";
+            Videos[0].play();
+        }
+     }else if(any==Plays[1]){
+         if(Plays[1].textContent==="⏸"){
+          Plays[1].textContent="▶";
+          Videos[1].pause();
+        }else{
+            Plays[1].textContent="⏸";
+            Videos[1].play();
+        }
+     }else if(any==Plays[2]){
+         if(Plays[2].textContent==="⏸"){
+          Plays[2].textContent="▶";
+          Videos[2].pause();
+        }else{
+            Plays[2].textContent="⏸";
+            Videos[2].play();
+        }
+     }else if(any==Plays[3]){
+         if(Plays[3].textContent==="⏸"){
+          Plays[3].textContent="▶";
+          Videos[3].pause();
+        }else{
+            Plays[3].textContent="⏸";
+            Videos[3].play();
+        }
+     }else if(any==Plays[4]){
+         if(Plays[4].textContent==="⏸"){
+          Plays[4].textContent="▶";
+          Videos[4].pause();
+        }else{
+            Plays[4].textContent="⏸";
+            Videos[4].play();
+        }
+     }else if(any==Plays[5]){
+         if(Plays[5].textContent==="⏸"){
+          Plays[5].textContent="▶";
+          Videos[5].pause();
+        }else{
+            Plays[5].textContent="⏸";
+            Videos[5].play();
+        }
+     }else if(any==Plays[6]){
+         if(Plays[6].textContent==="⏸"){
+          Plays[6].textContent="▶";
+          Videos[6].pause();
+        }else{
+            Plays[6].textContent="⏸";
+            Videos[6].play();
+        }
+     }else if(any==Plays[7]){
+         if(Plays[7].textContent==="⏸"){
+          Plays[7].textContent="▶";
+          Videos[7].pause();
+        }else{
+            Plays[7].textContent="⏸";
+            Videos[7].play();
+        }
+     }else if(any==Plays[8]){
+         if(Plays[8].textContent==="⏸"){
+          Plays[8].textContent="▶";
+          Videos[8].pause();
+        }else{
+            Plays[8].textContent="⏸";
+            Videos[8].play();
+        }
+     }else if(any==Plays[9]){
+         if(Plays[9].textContent==="⏸"){
+          Plays[9].textContent="▶";
+          Videos[9].pause();
+        }else{
+            Plays[9].textContent="⏸";
+            Videos[9].play();
+        }
+     }else if(any==Plays[10]){
+         if(Plays[10].textContent==="⏸"){
+          Plays[10].textContent="▶";
+          Videos[10].pause();
+        }else{
+            Plays[10].textContent="⏸";
+            Videos[10].play();
+        }
+     }else if(any==Plays[11]){
+         if(Plays[11].textContent==="⏸"){
+          Plays[11].textContent="▶";
+          Videos[11].pause();
+        }else{
+            Plays[11].textContent="⏸";
+            Videos[11].play();
+        }
+     }else if(any==Plays[12]){
+         if(Plays[12].textContent==="⏸"){
+          Plays[12].textContent="▶";
+          Videos[12].pause();
+        }else{
+            Plays[12].textContent="⏸";
+            Videos[12].play();
+        }
+     }else if(any==Plays[13]){
+         if(Plays[13].textContent==="⏸"){
+          Plays[13].textContent="▶";
+          Videos[13].pause();
+        }else{
+            Plays[13].textContent="⏸";
+            Videos[13].play();
+        }
+     }else if(any==Plays[14]){
+         if(Plays[14].textContent==="⏸"){
+          Plays[14].textContent="▶";
+          Videos[14].pause();
+        }else{
+            Plays[14].textContent="⏸";
+            Videos[14].play();
+        }
+     }else if(any==Plays[15]){
+         if(Plays[15].textContent==="⏸"){
+          Plays[15].textContent="▶";
+          Videos[15].pause();
+        }else{
+            Plays[15].textContent="⏸";
+            Videos[15].play();
+        }
+     }else if(any==Plays[16]){
+         if(Plays[16].textContent==="⏸"){
+          Plays[16].textContent="▶";
+          Videos[16].pause();
+        }else{
+            Plays[16].textContent="⏸";
+            Videos[16].play();
+        }
+     }else if(any==Plays[17]){
+         if(Plays[17].textContent==="⏸"){
+          Plays[17].textContent="▶";
+          Videos[17].pause();
+        }else{
+            Plays[17].textContent="⏸";
+            Videos[17].play();
+        }
+     }else if(any==Plays[18]){
+         if(Plays[18].textContent==="⏸"){
+          Plays[18].textContent="▶";
+          Videos[18].pause();
+        }else{
+            Plays[18].textContent="⏸";
+            Videos[18].play();
+        }
+     }else if(any==Plays[19]){
+         if(Plays[19].textContent==="⏸"){
+          Plays[19].textContent="▶";
+          Videos[19].pause();
+        }else{
+            Plays[19].textContent="⏸";
+            Videos[19].play();
+        }
+     }else if(any==Plays[20]){
+         if(Plays[20].textContent==="⏸"){
+          Plays[20].textContent="▶";
+          Videos[20].pause();
+        }else{
+            Plays[20].textContent="⏸";
+            Videos[20].play();
+        }
+     }else if(any==Plays[21]){
+         if(Plays[21].textContent==="⏸"){
+          Plays[21].textContent="▶";
+          Videos[21].pause();
+        }else{
+            Plays[21].textContent="⏸";
+            Videos[21].play();
+        }
+     }else if(any==Plays[22]){
+         if(Plays[22].textContent==="⏸"){
+          Plays[22].textContent="▶";
+          Videos[22].pause();
+        }else{
+            Plays[22].textContent="⏸";
+            Videos[22].play();
+        }
+     }else if(any==Plays[23]){
+         if(Plays[23].textContent==="⏸"){
+          Plays[23].textContent="▶";
+          Videos[23].pause();
+        }else{
+            Plays[23].textContent="⏸";
+            Videos[23].play();
+        }
+     }else if(any==Plays[24]){
+         if(Plays[24].textContent==="⏸"){
+          Plays[24].textContent="▶";
+          Videos[24].pause();
+        }else{
+            Plays[24].textContent="⏸";
+            Videos[24].play();
+        }
+     }else if(any==Plays[25]){
+         if(Plays[25].textContent==="⏸"){
+          Plays[25].textContent="▶";
+          Videos[25].pause();
+        }else{
+            Plays[25].textContent="⏸";
+            Videos[25].play();
+        }
+     }else if(any==Plays[26]){
+         if(Plays[26].textContent==="⏸"){
+          Plays[26].textContent="▶";
+          Videos[26].pause();
+        }else{
+            Plays[26].textContent="⏸";
+            Videos[26].play();
+        }
+     }else if(any==Plays[27]){
+         if(Plays[27].textContent==="⏸"){
+          Plays[27].textContent="▶";
+          Videos[27].pause();
+        }else{
+            Plays[27].textContent="⏸";
+            Videos[27].play();
+        }
+     }else if(any==Plays[28]){
+         if(Plays[28].textContent==="⏸"){
+          Plays[28].textContent="▶";
+          Videos[28].pause();
+        }else{
+            Plays[28].textContent="⏸";
+            Videos[28].play();
+        }
+     }else if(any==Plays[29]){
+         if(Plays[29].textContent==="⏸"){
+          Plays[29].textContent="▶";
+          Videos[29].pause();
+        }else{
+            Plays[29].textContent="⏸";
+            Videos[29].play();
+        }
+     }else if(any==Plays[30]){
+         if(Plays[30].textContent==="⏸"){
+          Plays[30].textContent="▶";
+          Videos[30].pause();
+        }else{
+            Plays[30].textContent="⏸";
+            Videos[30].play();
+        }
+     }else if(any==Plays[31]){
+         if(Plays[31].textContent==="⏸"){
+          Plays[31].textContent="▶";
+          Videos[31].pause();
+        }else{
+            Plays[31].textContent="⏸";
+            Videos[31].play();
+        }
+     }else if(any==Plays[32]){
+         if(Plays[32].textContent==="⏸"){
+          Plays[32].textContent="▶";
+          Videos[32].pause();
+        }else{
+            Plays[32].textContent="⏸";
+            Videos[32].play();
+        }
+     }else if(any==Plays[33]){
+         if(Plays[33].textContent==="⏸"){
+          Plays[33].textContent="▶";
+          Videos[33].pause();
+        }else{
+            Plays[33].textContent="⏸";
+            Videos[33].play();
+        }
+     }else if(any==Plays[34]){
+         if(Plays[34].textContent==="⏸"){
+          Plays[34].textContent="▶";
+          Videos[34].pause();
+        }else{
+            Plays[34].textContent="⏸";
+            Videos[34].play();
+        }
+     }
+     
+    })
+})

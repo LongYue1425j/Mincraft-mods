@@ -1,0 +1,201 @@
+
+body{
+background-color: rgb(131, 132, 133);
+text-align: center;
+align-items: center;
+justify-content: center;
+justify-items: center;
+background-image: url(Background/Beach.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+h1{
+font-family: sans-serif;
+}
+#facebook{
+background-image: url(logos/facebook.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#insta{
+background-image: url(logos/instagram\ or.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#X{
+translate: 0px -7px;
+}
+.src{
+height: 30px;
+width: 30px;
+border-radius: 360px;
+border-color: white;
+cursor: pointer;
+transition: 1s;
+}
+.src:hover{
+transition: 1s;
+box-shadow: 3px 3px 5px rgb(196, 178, 143);
+}
+#click{
+background: linear-gradient(130deg,#00d9ff,#ff00ea);
+border: none;
+border-radius: 180px;
+width: 120px;
+color: wheat;
+height: 28px;
+font-family: serif;
+cursor: pointer;
+transition: 0.60s;
+}
+#click:hover{
+animation: borders 1s infinite reverse ease-in-out;
+}
+@keyframes borders{
+0%{}
+25%{border-right: 3px solid #00d9ff;}
+50%{border-bottom: 3px solid #00d9ff;}
+75%{border-left: 3px solid #ff00ea;}
+100%{border-top: 3px solid #ff00ea;}
+}
+#click:active{
+background: linear-gradient(130deg,#ffffff,#ffffff);
+color: black;
+}
+#box1{
+background: linear-gradient(#00d9ff,#ff00ea);
+height: 450px;
+width: 400px;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+transition:1s;
+}
+#box1:hover{
+transition: 0.60s;
+box-shadow: -7px 8px 3px rgb(255, 145, 0);
+}
+input{
+background: linear-gradient(to right,#ff00ea,#00d9ff);
+height: 27px;
+width: 250px;
+border: none;
+color: rgb(218, 67, 40);
+border-radius: 4px;
+transition: 0.75s;
+font-family: fantasy;
+}
+input:hover{
+    transition: 0.50s;
+margin-bottom: 1rem;
+box-shadow: 3px 3px 30px white;
+background: linear-gradient(to right,#00d9ff,#ff00ea);
+}
+#box2{
+background: linear-gradient(red,yellow);
+height: 450px;
+width: 400px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+transition: 1s;
+}
+#box2:hover{
+transition: 0.60s;
+box-shadow: 7px 8px 3px #00d9ff;
+}
+#btn1{
+background: linear-gradient(130deg,yellow,red);
+border: none;
+border-radius: 180px;
+width: 120px;
+color: wheat;
+height: 28px;
+font-family: serif;
+cursor: pointer;
+font-size: 22px;
+transition: 0.60s;
+}
+#btn1:hover{
+animation: border 1s infinite reverse ease-in-out;
+}
+@keyframes border{
+0%{}
+25%{border-right: 3px solid #eeff00;}
+50%{border-bottom: 3px solid #ff0000;}
+75%{border-left: 3px solid #ffee00;}
+100%{border-top: 3px solid #ff0000;}
+}
+#btn1:active{
+background: linear-gradient(130deg,#000000,#000000);
+color: rgb(255, 255, 255);
+}
+.loop{
+background: linear-gradient(to right,#ff0000,#fbff00);
+height: 27px;
+width: 250px;
+border: none;
+color: rgb(218, 67, 40);
+border-radius: 4px;
+transition: 0.75s;
+font-family: fantasy;
+}
+.loop:hover{
+transition: 0.50s;
+margin-bottom: 1rem;
+box-shadow: 3px 3px 30px rgb(0, 0, 0);
+background: linear-gradient(to right,#eeff00,#ff0000);
+}
+#btn3{
+background: linear-gradient(130deg,#00d9ff,#ff00ea);
+border: none;
+border-radius: 180px;
+width: 120px;
+color: wheat;
+height: 28px;
+font-family: serif;
+cursor: pointer;
+transition: 0.60s;
+}
+#btn3:hover{
+animation: borders 1s infinite reverse ease-in-out;
+}
+@keyframes borders{
+0%{}
+25%{border-right: 3px solid #00d9ff;}
+50%{border-bottom: 3px solid #00d9ff;}
+75%{border-left: 3px solid #ff00ea;}
+100%{border-top: 3px solid #ff00ea;}
+}
+#btn3:active{
+background: linear-gradient(130deg,#ffffff,#ffffff);
+color: black;
+}
+#btn_for_login{
+background: linear-gradient(130deg,yellow,red);
+border: none;
+border-radius: 180px;
+width: 120px;
+color: wheat;
+height: 28px;
+font-family: serif;
+cursor: pointer;
+font-size: 22px;
+transition: 0.60s;
+}
+#btn_for_login:hover{
+animation: border 1s infinite reverse ease-in-out;
+}
+@keyframes border{
+0%{}
+25%{border-right: 3px solid #eeff00;}
+50%{border-bottom: 3px solid #ff0000;}
+75%{border-left: 3px solid #ffee00;}
+100%{border-top: 3px solid #ff0000;}
+}
+#btn_for_login:active{
+background: linear-gradient(130deg,#000000,#000000);
+color: rgb(255, 255, 255);
+}
